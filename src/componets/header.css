@@ -1,0 +1,31 @@
+/* aタグの下線をなくす */
+
+* {
+  margin: 0;
+}
+h1 {
+  margin: 20px 10px;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav a {
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+/* aタグがactiveの時boldにする */
+nav a.active {
+  font-weight: bold;
+  color: #f1f1f1;
+}
